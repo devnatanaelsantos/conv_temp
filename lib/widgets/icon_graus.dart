@@ -10,7 +10,7 @@ class IconGraus extends StatelessWidget {
 
   final Image iconTemp;
 
-  final ConvTempController convTempController;
+  final ConvtTempController convTempController;
 
   @override
   Widget build(BuildContext context) {

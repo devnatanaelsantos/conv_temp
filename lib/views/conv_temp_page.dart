@@ -12,7 +12,7 @@ class ConvTempPage extends StatefulWidget {
 }
 
 class _ConvTempPageState extends State<ConvTempPage> {
-  ConvTempController convTempController = ConvTempController();
+  ConvtTempController convTempController = ConvtTempController();
 
   @override
   Widget build(BuildContext context) {

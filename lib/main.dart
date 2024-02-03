@@ -1,4 +1,4 @@
-import 'package:app_graus/views/temp_page.dart';
+import 'package:app_graus/views/conv_temp_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

@@ -7,7 +7,7 @@ class EntradaTemp extends StatelessWidget {
     required this.convTempController,
   });
 
-  final ConvTempController convTempController;
+  final ConvtTempController convTempController;
 
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:app_graus/models/conv_temp_model.dart';
 import 'package:flutter/material.dart';
 
-class ConvTempController extends ChangeNotifier {
+class ConvtTempController extends ChangeNotifier {
   final grauController = TextEditingController();
 
   bool trocaIcon = false;
@@ -19,7 +19,7 @@ class ConvTempController extends ChangeNotifier {
   ValueNotifier<ConvTempModel> result =
       ValueNotifier(ConvTempModel(grausResult: 0));
 
-  ConvTempController() {
+  ConvtTempController() {
     grauController.addListener(() {
       btConv.value = grauController.value.text.isNotEmpty;
     });
