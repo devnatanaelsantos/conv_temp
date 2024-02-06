@@ -10,14 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.blue, // Cor primária do tema
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+    return const MaterialApp(
       title: 'Conversor de temperatura',
       debugShowCheckedModeBanner: false,
-      home: const ConvTempPage(),
+      home: ConvTempPage(),
     );
   }
 }
