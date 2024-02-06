@@ -1,16 +1,20 @@
-# app_graus
+# Conversor de temperatura
 
-"A new Flutter project."
+## Resumo do projeto 
 
-## Getting Started
+### Arquitetura adotada:
+- MVC
+### Gerencimento de estado utilizado:
+- ValueNotifier
 
-This project is a starting point for a Flutter application.
+### Layout
 
-A few resources to get you started if this is your first Flutter project:
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/devnatanaelsantos/readme_imgs/blob/main/conv_temp/1.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/readme_imgs/blob/main/conv_temp/2.png" width=300 height='650'>
+<img src="https://github.com/devnatanaelsantos/readme_imgs/blob/main/conv_temp/4.png" width=300 height='650'>
+  <img src="https://github.com/devnatanaelsantos/readme_imgs/blob/main/conv_temp/3.png" width=300 height='650'>
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Demonstração
+<img src="https://github.com/devnatanaelsantos/readme_imgs/blob/main/conv_temp/novoGif.gif" width=300 height='650'>
