@@ -182,7 +182,7 @@ class _ConvTempPageState extends State<ConvTempPage> {
                         ),
                       ),
                       child: const Text(
-                        'Conerter',
+                        'Converter',
                         style:
                             TextStyle(color: Color(0xFFEEF8FC), fontSize: 18),
                       ),
